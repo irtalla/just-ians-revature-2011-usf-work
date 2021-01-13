@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Story Pitch Management System</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/authorStyle.css">
+	</head>
+	<body>
+		<!-- Named after Queen Sectonia, whose name subtly indicates she is only near an 
+		     insect form.  Thus, a div class acting like a nav-bar, but not quite. -->
+		<div class="queen-navbarnia">
+			<h1>Story Pitch Management System - Author View</h1>
+			<h2>Welcome!</h2>
+		</div>
+		<br>
+		
+		<!-- As this is truly the where everything as of now is shown off,
+		     this is the "soul" of the thing. Thus, "Soul of SPMS", named after the Soul
+		     version of Queen Sectonia. -->
+		<div class="soul-of-spms">
+			<table>
+				<tr>
+					<td>
+						<h4>Create a new story pitch here</h4>
+						<form>
+							<label>Title</label>
+							<input type="text" id="title"></input>
+							<br>
+							<label>Date Completed</label>
+							<input type="text" id="date"></input>
+							<br>
+							<label>Genre</label>
+							<input type="text" id="genre"></input>
+							<br>
+							<label>Description (in less than 1000 characters)</label>
+							<input type="text" id="description"></input>
+							<br>
+							<label>Length Of Literary Work</label>
+							<input type="text" id="literary-work-length"></input>
+							<br>
+							<button type="button" id="new-pitch">Submit Your New Pitch!</button>
+						</form>
+					</td>
+					<td>
+						<h4>View all of your stories here.</h4>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<a href="index.html" id="logout">Log Out</a>
+		</div>
+		
+		<script src="js/main.js"></script>
+		<script src="js/authoractions.js"></script>
+	</body>
+</html>
